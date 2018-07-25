@@ -1,3 +1,3 @@
 # ImgPloadr.io
- simple Image and picture blog web App
+ simple Images and pictures blog web App
 
