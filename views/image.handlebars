@@ -1,0 +1,35 @@
+<div class="panel panel-primary">
+ 	<div class="panel-heading">
+ 		<h2 class="panel-title">{{ image.title }}</h2>
+	</div>
+ 	<div class="panel-body">
+ 		<p>{{ image.description }}</p>
+ 		<div class="col-md-12 text-center">
+ 			<img src="/public/upload/{{ image.filename }}" class="img-thumbnail">
+ 		</div>
+ 	</div>
+ 	<div class="panel-footer">
+ 		<div class="row">
+ 			<div class="col-md-8">
+ 				<button class="btn btn-success" id="btn-like" data-id="{{ image.uniqueId }}"><i class="fa fa-heart"> Like</i></button>
+ 				<strong class="likes-count">{{ image.likes }}</strong> &nbsp; - &nbsp; <i class="fa fa-eye">
+ 				</i> <strong>{{ image.views }}</strong>&nbsp; - &nbsp; Posted: <em class="text-muted">{{ timeago image.timestamp }}</em>
+ 			</div>
+ 		</div>
+ 	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+ 		<div class="row">
+ 			<div class="col-md-8">
+ 				<strong class="panel-title">Comments</strong>
+ 			</div>
+			<div class="col-md-4 text-right">
+ 				<button class="btn btn-default btn-sm" id="btn-comment" data-id="{{ image.uniqueId }}">
+ 				<i class="fa fa-comments-o"> Post Comment...</i></button>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="panel-body">
+ 		<blockquote id="post-comment">
+ 			<div class="row">
