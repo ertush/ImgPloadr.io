@@ -1,5 +1,5 @@
 # ImgPloadr.io 
- simple Images and pictures blog web App
+   simple Images and pictures blog web App
 # Using the following dependencies:
  1. handlebars as the templating engine
  2. body-parser
