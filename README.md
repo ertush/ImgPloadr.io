@@ -1,4 +1,4 @@
-# ImgPloadr.io [![body parse](http://#)](http://#)[![jd-standered]]
+# ImgPloadr.io 
  simple Images and pictures blog web App
 # Using the following dependencies:
  1. handlebars as the templating engine
