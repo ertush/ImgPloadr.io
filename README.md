@@ -13,8 +13,8 @@
  # Installation and testing:
   1. Install Node.js from https://nodejs.org/en/download/
   2. It comes with npm by default.
-  3. Pull the project source using [git clone https://github.com/ertush/ImgPloadr.io.git]
-  4. Run [npm install] from the root directory of the project
-  5. To test run [npm start]
+  3. Download the project source using ```git clone https://github.com/ertush/ImgPloadr.io.git```
+  4. Run ```npm install``` from the root directory of the project
+  5. To test run ```npm start```
  
 
